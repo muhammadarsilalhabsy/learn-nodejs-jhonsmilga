@@ -2,7 +2,12 @@ const path = require("path");
 
 console.log(path.sep);
 
-const simpleTxtFilePath = path.join("/content", "sub-content", "simple.txt");
+const simpleTxtFilePath = path.join(
+  "/node-tutorial",
+  "content",
+  "sub-content",
+  "simple.txt"
+);
 console.log(simpleTxtFilePath);
 
 const base = path.basename(simpleTxtFilePath);
